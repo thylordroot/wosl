@@ -87,7 +87,7 @@ Samples are placed into  sample collections, which are directories containing
 related samples. Each sample collection belongs to a category, which itself 
 belongs to the "sample" directory in the repository root. For instance, the 
 following facts can be known just by looking at the path 
-"*samples/guitar/reson8r*":
+"*samples/guitars/reson8r*":
 
 - It contains samples related to collection named *reson8r*
 - It is in the *guitar* category
@@ -102,7 +102,7 @@ instance, you may not be familiar with what a reson8r is, what model reson8r
 is being recorded, and how it was recorded. A series of README.md files 
 should be included to eludicate on the details. For instance, one may
 learn more information about the "reson8r" sample collection by viewing its
-[readme.md](samples/guitar/reson8r/readme.md). In the future, other metadata
+[readme.md](samples/guitars/reson8r/readme.md). In the future, other metadata
 may be included.
 
 Sample names are in 8.3 format to preserve usability with legacy environments.
@@ -145,7 +145,7 @@ by the sample collection should be listed in this file.
 
 Documentation is inherited, meaning that any documentation that applies to the
 item's parent also applies to it. For instance, documentation that applies to
-the "samples/guitar" category also applies to "samples/guitar/reson8tr". This
+the "samples/guitars" category also applies to "samples/guitars/reson8tr". This
 is allowed to be overridden by the descendent's documentation: the 
 documentation for reson8tr may override or redact documentation specified by
 the guitar category. In fact, there is a [readme.md](samples/readme.md) for
